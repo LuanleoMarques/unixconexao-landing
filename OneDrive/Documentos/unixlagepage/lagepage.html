@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Conexão - O CRM Inteligente</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a192f;
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        h1 {
+            font-size: 48px;
+            color: #4db5ff;
+        }
+        p {
+            font-size: 20px;
+            color: #d3d3d3;
+            max-width: 600px;
+            margin: auto;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px;
+            font-size: 18px;
+            color: #fff;
+            background: #4db5ff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background: #1d87d6;
+        }
+        .features {
+            padding: 50px;
+            text-align: left;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .feature img {
+            width: 80px;
+            margin-right: 20px;
+        }
+        .form-container {
+            padding: 50px;
+            background: #1a2336;
+        }
+        input {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #fff;
+            background: #28a745;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="logo.png" alt="Unix Conexão" width="150">
+            <h1>Unix Conexão - O CRM Inteligente</h1>
+            <p>Automação de marketing e inteligência artificial para levar seu negócio a outro nível.</p>
+            <a href="#form" class="cta-button">Teste Grátis</a>
+            <a href="https://wa.me/seunumerowhatsapp" class="cta-button">Fale Conosco</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <h2>Por que escolher o Unix Conexão?</h2>
+        <div class="feature">
+            <img src="icon1.png" alt="Ícone 1">
+            <p>Automação de marketing com inteligência artificial para otimizar seus resultados.</p>
+        </div>
+        <div class="feature">
+            <img src="icon2.png" alt="Ícone 2">
+            <p>Gestão de leads eficiente para converter mais clientes.</p>
+        </div>
+        <div class="feature">
+            <img src="icon3.png" alt="Ícone 3">
+            <p>Relatórios avançados para tomada de decisão estratégica.</p>
+        </div>
+    </section>
+    
+    <section class="form-container" id="form">
+        <h2>Cadastre-se para um Teste Grátis</h2>
+        <form>
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required>
+            <button type="submit">Começar Agora</button>
+        </form>
+    </section>
+</body>
+</html>
